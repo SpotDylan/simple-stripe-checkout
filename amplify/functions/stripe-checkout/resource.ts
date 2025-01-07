@@ -1,4 +1,6 @@
 import { defineFunction, secret } from '@aws-amplify/backend'
+import 'dotenv/config'
+
 
 export const stripeCheckoutSongFunc = defineFunction({
 	name: 'stripe-checkout-song',
